@@ -25,6 +25,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
+
 # Store courses.json in the same directory as this Python file
 DATA_FILE = Path(__file__).parent / "courses.json"
 
